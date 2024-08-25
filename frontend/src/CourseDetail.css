@@ -1,0 +1,22 @@
+.course-detail-container {
+    margin: 20px;
+  }
+  
+  .course-detail {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .detail-row {
+    margin-bottom: 10px;
+  }
+  
+  .detail-key {
+    font-weight: bold;
+  }
+  
+  .detail-value {
+    color: #555;
+  }
+  

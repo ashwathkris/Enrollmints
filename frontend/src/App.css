@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.layout {
+  display: flex;
+}
+
+.filter-sidebar {
+  flex: 1;
+  padding-right: 20px; /* Adjust spacing as needed */
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  margin-bottom: 20px; /* Spacing after the search bar */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Checkboxes on separate lines with spacing */
+.filter-sidebar label {
+  display: block;
+  margin-bottom: 10px; /* This adds some space between the checkboxes */
+}
+
+.course-grid {
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 20px;
+}
+
+.course-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  margin-right: 20px; /* Add right margin to each card */
+  margin-bottom: 20px; /* Add bottom margin to each card for consistent spacing */
+}

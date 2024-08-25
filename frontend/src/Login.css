@@ -1,0 +1,40 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height if needed */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 200px; /* Adjust the width of the text box as needed */
+    padding: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 220px; /* Match the width of the text box */
+    height: 40px;
+    padding: 10px;
+    background-color: #042c54;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: large;
+}
+
+button:hover {
+    background-color: darkblue;
+}

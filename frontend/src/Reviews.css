@@ -1,0 +1,78 @@
+/* Scoped container */
+.review-list-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    /* background-color: #333; Dark background for contrast with white text */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start;
+}
+
+.review-list-container input[type="text"] {
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(50% - 22px);
+    display: inline-block;
+}
+
+.review-list-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #042c54;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-end; /* Align button to the end (right side) */
+    margin-bottom: 10px; /* Add margin at the bottom for spacing */
+}
+
+.review-list-container button:hover {
+    /* background-color: #042c54; */
+    background-color: #ff5f05;
+}
+
+.review-list-container ul {
+    list-style: none;
+    padding: 0;
+    width: 100%; /* Ensure list takes full width */
+    margin: 0; /* Remove default margin */
+}
+
+.review-list-container li {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.review-list-container li:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.review-list-container h2 {
+    color: white; /* Changed text color to white */
+    font-size: 18px;
+}
+
+.review-list-container p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.review-list-container a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.review-list-container a:hover {
+    text-decoration: underline;
+}
+
